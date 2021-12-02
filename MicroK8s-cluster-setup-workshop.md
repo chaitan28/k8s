@@ -38,9 +38,9 @@ sudo chown -f -R $USER ~/.kube
 ```
 ---
 ## step 4: Turn on the services you want
-- Try microk8s enable --help for a list of available services and optional features. 
-    microk8s enable -name- turns on a service
-    microk8s disable -name- turns off a service.
+- Try microk8s enable --help for a list of available services and optional features.
+    - microk8s enable -name- turns on a service
+    - microk8s disable -name- turns off a service.
 - let us try to enable dashboard, dns, registry, istio services
 
 ```
