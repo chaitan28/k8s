@@ -23,7 +23,7 @@ snap install microk8s --classic --channel=1.18/stable
 
 ```
 ---
-## step 2: Check the status in all VMs
+## step 2: Check the status installation in all VMs
 -MicroK8s has a built-in command to display its status. During installation you can use the --wait-ready flag to wait for the Kubernetes services to initialise:
 ```
 sudo microk8s status --wait-ready
